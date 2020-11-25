@@ -1,11 +1,20 @@
 .divcenter{
-	margin-top: 25%;
+	margin-top: 150px;
 	margin-left: auto;
 	display: flex;
 	align-items: center;
 	align-content: center;
 }
-
+.body{
+	background-size: cover;
+	background-image: url("src/fondo.png");
+}
+.label{
+	color: white;
+}
+.info {
+	color: white;
+}
 .btncenter{
 	align-content: center;
 	align-items: center;
