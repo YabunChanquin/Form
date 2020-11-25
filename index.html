@@ -1,18 +1,35 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Formulario</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-	</head>
-	<body>
-		<center><form action="" method="POST">
-			<p>Nombre: <input class="intext" id="nombre" type="text" name="nombre"></p>
-			<p>Edad: <input  class="intext" id="old" type="number" name="old"></p>
-			<p>E-mail: <input  class="intext" id="email" type="email" name="email"></p>
-			<button class="btn" id="submit" onclick="alerta()">Submit</button>
-		</form>
-		</center>
-
-		<script src="js/js.js"></script>
-	</body>
+<head>
+	<title>Formulario</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/js.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="divcenter">
+		<div class="container">
+			<form action="#" class="border p-3 form">
+				<div class="form-group">
+					<label for="nombre">Nombre</label>
+					<input type="text" name="nombre" id="nombre" class="form-control">
+				</div>
+				<div class="form-group">
+					<label for="old">Edad</label>
+					<input type="number" name="old" id="old" class="form-control">
+				</div>
+				<div class="form-group">
+					<label for="email">Email</label>
+					<input type="email" name="email" id="email" class="form-control">
+				</div>
+				<div class="btncenter">
+					<button type="submit" class="btn btn-primary" onclick="alerta()">Login</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
 </html>
